@@ -38,18 +38,6 @@ function Apparel() {
     }
   }, [category]);
 
-  // const addUser = (item) => {
-  //   const isAlreadyInCart = cartItems.some(
-  //     (cartItem) => cartItem.id === item.id
-  //   );
-  //   if (isAlreadyInCart) {
-  //     toast.warn("Item is already in the cart");
-  //   return;
-  //   }
-
-  //   dispatch(setUsers(item));
-  // toast.success("Added to Cart Successfully");
-  // };
   const addUser = (item) => {
     dispatch(setUsers(item));
     toast.success(

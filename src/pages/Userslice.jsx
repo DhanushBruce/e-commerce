@@ -1,30 +1,4 @@
-// import { createSlice } from "@reduxjs/toolkit";
-// // import data from '../Json/Appareldata.json'
 
-
-// const initialState = {
-//     Apparel: [],
-// };
-
-// export const userSlice = createSlice({
-//     name: "user",
-//     initialState,
-//     reducers: { 
-//         setUsers: (state, action) => {
-//             state.Apparel = [...state.Apparel, action.payload];
-//         }, 
-//         deleteUser: (state, action) => {
-//             state.Apparel = state.Apparel.filter(
-//                 (user, index) => index !== action.payload
-//             );
-//         },
-//     },
-// });
-
-
-// export const { setUsers, deleteUser } = userSlice.actions;
-
-// export default userSlice.reducer;
 
 import { createSlice } from "@reduxjs/toolkit";
 

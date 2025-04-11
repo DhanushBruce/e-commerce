@@ -16,7 +16,6 @@ import Cart from "./pages/Cart";
 import PrivateRoute from "./PrivateRoute";
 import WishList from "./pages/WishList";
 
-// Inner component so we can use useLocation
 const AppContent = () => {
   const location = useLocation();
 
